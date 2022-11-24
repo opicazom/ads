@@ -12,19 +12,14 @@ buildscript {
     }
 }
 
-allprojects {
+allprojects {https://github.com/opicazom/ads/blob/main/build.gradle
     repositories {
         google()
         mavenCentral()
         maven {
             url 'https://jitpack.io'
         }
-//        maven {
-//            url 'https://startappdev.bintray.com/maven'
-//        }
-        maven {
-            url 'https://android-sdk.is.com/'
-        }
+
     }
 }
 
